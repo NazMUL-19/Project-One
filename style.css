@@ -147,3 +147,51 @@ ul{
     color: #555;
     font-size: 16px;
 }
+.highlights{
+    background-color: #f8f9fc;
+}
+
+.highlights h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.highlights-subtitle{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+    font-size: 17px;
+}
+
+.highlight-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.highlight-card{
+    background-color: #fff;
+    padding: 35px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.highlight-card h3{
+    font-size: 42px;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.highlight-card h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.highlight-card p{
+    font-size: 15px;
+    color: #555;
+    line-height: 1.7;
+}
